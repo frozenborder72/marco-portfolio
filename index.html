@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Manunta - Junior Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Marco Manunta</h1>
+        <p class="subtitle">Junior Software Engineer</p>
+    </header>
+
+    <main>
+        <section class="section about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="img/profile-pic-(1).jpeg" alt="Profile Pic">
+                <p>I have a PhD in English Literature, and since the early 2000's have been attracted to coding and frontend development, applying the skills I gained in the long years of research and formal and critical thinking, and with the same commitment and eagerness to learn.</p>
+                <p>I enrolled in General Assembly's Software Engineering Immersive in order to formalise and enhance the unstructured pieces of knowledge absorbed in decades as a self taught developer, and to gain insights into the world of professional software development.</p>
+                <p>My aim is to transfer into engineering the skills I've acquired and honed working for 20+ years in Education. I wish to work for an established company so that I can face thought provoking challenges to share with a team of like minded professionals.</p>
+            </div>
+        </section>
+
+        <section class="section skills">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="frontend">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>Css</li>
+                        <li>Sass</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                    </ul>
+                </div>
+                <div class="backend">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node</li>
+                        <li>Express</li>
+                        <li>Mongo</li>
+                        <li>Mongoose</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>Postgresql</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="other">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Git & Github</li>
+                        <li>Postman</li>
+                        <li>npm</li>
+                        <li>pip</li>
+                        <li>axios</li>
+                        <li>Tableplus</li>
+                    </ul>
+                </div>
+                <div class="currently">
+                    <h3>Currently Learning</h3>
+                    <ul>
+                        <li>Advanced Python</li>
+                        <li>Flask</li>
+                        <li>Microservices</li>
+                        <li>Algorithms</li>
+                        <li>Data Structures</li>
+                        <li>Functional Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section projects">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Project 4: Holistars - 10 days, pair</h3>
+                    <img src="img/projects/project-04.jpeg" alt="">
+                    <p class="description">Fullstack App React/Django pair project. Social Network for holidays where users can add reviews for holiday destinations and follow other users. The data is fetched with live scraping and the state is managed by Redux.</p>
+                    <p><a href="https://github.com/frozenborder72/holistars">Read Me</a> | <a href="https://holistars.netlify.app/">Deployed</a></p>
+                </div>
+                <div class="project">
+                    <h3>Project 3: Accelerate Inc - One week, group of 3</h3>
+                    <img src="img/projects/project-03.jpeg" alt="">
+                    <p class="description">Full-Stack MERN (MongoDB, Express, React and Node) application with CRUD functionality. One-stop web tool for managing athlete applications, medical reporting, sessions, attendance, and article publication in a dedicated blogging system.</p>
+                    <p><a href="https://github.com/frozenborder72/accelerate-inc">Read Me</a> | <a href="#">Deployed</a></p>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Quote Farm - 48 hours, pair</h3>
+                    <img src="img/projects/project-02.jpeg" alt="">
+                    <p class="description">React App that fetches data from multiple APIs, 48 hours pair programming Hackathon. A fun app that fetches animals videos from pexels and add a quote from fav.qs</p>
+                    <p><a href="https://github.com/frozenborder72/animal-farm">Read Me</a> | <a href="#">Deployed</a></p>
+                </div>
+                <div class="project">
+                    <h3>Project 1: Ultimate Tic Tac Toe - One week, solo</h3>
+                    <img src="img/projects/project-01.jpeg" alt="">
+                    <p class="description">My take on ultimate tic tac toe, that features UI completely managed by the state in a unidirectional data flow. Project based on HTML, CSS, JavaScript.</p>
+                    <p><a href="https://github.com/frozenborder72/ultimate-tic-tac-toe">Read Me</a> | <a href="https://frozenborder72.github.io/ultimate-tic-tac-toe/">Deployed</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="section contact">
+            <h2>Contact Me</h2>
+            <p>Find me on <a href="">Linkedin</a></p> 
+            <p>Find me on <a href="">Github</a></p>
+            <p>Or write me an email:</p>
+            <form action="">
+                <label for="name">Your name:</label>
+                <input type="text" id="name">
+                <label for="email">Your email:</label>
+                <input type="email" id="email">
+                <label for="message">Your message:</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+                <button type="submit" class="btn">Send email</button>
+            </form> 
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
